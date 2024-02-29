@@ -13,6 +13,10 @@ public class Jarra { // atributos
 
     // metodos
     // 1
+    public int capacidad() {
+        return this.capacidad;
+    }
+       
     // 2
     // 3
     public void metodoComunitario() {
