@@ -14,6 +14,11 @@ public class Jarra { // atributos
     // metodos
     // 1
     // 2
+    public void llena() {
+        this.cantidad=this.capacidad; 
+    }
+    
+   
     // 3
     public void metodoComunitario() {
         // Comentario incluido para pruebas
