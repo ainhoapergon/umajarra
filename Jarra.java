@@ -48,5 +48,6 @@ public class Jarra { // atributos
         // Comentario incluido para pruebas
         System.out.println("Borja Perez Herencia");
         System.out.println("Ainhoa Pérez González");
+        System.out.println("Ainhoa Nerea Santana Bastante");
     }
 }
