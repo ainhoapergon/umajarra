@@ -47,5 +47,6 @@ public class Jarra { // atributos
     public void metodoComunitario() {
         // Comentario incluido para pruebas
         System.out.println("Borja Perez Herencia");
+        System.out.println("Ainhoa Pérez González");
     }
 }
