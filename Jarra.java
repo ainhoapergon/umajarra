@@ -13,6 +13,14 @@ public class Jarra { // atributos
 
     // metodos
     // 1
+    public int capacidad() {
+        return this.capacidad;
+    }
+
+    public int cantidad() {
+        return this.cantidad;
+    }
+       
     // 2
     public void llena() {
         this.cantidad=this.capacidad; 
@@ -25,6 +33,17 @@ public class Jarra { // atributos
     
    
     // 3
+    public void llenaDesde(Jarra j) {
+        while ((this.cantidad < this.capacidad) && (j.cantidad > 0)) {
+            this.cantidad++;
+            j.cantidad--;
+        }
+    }
+
+    public String toString() {
+        return ("(" + this.capacidad + "," + this.cantidad + ")");
+    }
+
     public void metodoComunitario() {
         // Comentario incluido para pruebas
         System.out.println("Aqui escribimos todos");
